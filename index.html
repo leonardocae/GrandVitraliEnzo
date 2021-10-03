@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Lightslider -->
+    <link rel="stylesheet" href="./component/lightslider/css/lightslider.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./component/lightslider/js/lightslider.js"></script>
+
+    <!-- Lightgallery -->
+	<link href="./component/simplelightbox/simple-lightbox.min.css" rel="stylesheet" />
+	
+	<!-- Patterns -->
+	<link href="https://unpkg.com/pattern.css" rel="stylesheet" />
+
+    <title>Gerente Enzo</title>
+</head>
+
+<body>
+	<!-- NAV -->
+	<nav class="navbar navbar-expand-xl navbar-light bg-marrom text-white">
+		<div class="container-lg">     
+			      
+			<a class="navbar-brand fs-5 text-white" href="#">
+				<img src="./img/icones/logo grand vitrali quadrado.png" alt="logo" height="60">
+				Grand Vitrali Moema<br>
+			</a>
+
+			<!-- Menu Dropdown (Só aparece quando for menor que SM) -->
+			<div class="dropdown d-md-none text-white">
+				<button class="btn btn-dark" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+					<i class="fas fa-bars"></i>
+				</button>
+				<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+					<li><a class="dropdown-item" href="#projeto">Projeto</a></li>
+					<li><a class="dropdown-item" href="#fotos">Fotos</a></li>
+					<li><a class="dropdown-item" href="#plantas">Plantas</a></li>
+					<li><a class="dropdown-item" href="#ficha">Ficha Técnica</a></li>
+					<li><a class="dropdown-item" href="#contato">Contato</a></li>
+				</ul>
+			</div>
+			<!-- FIM - Menu Dropdown -->  
+
+			<div class="navbar-nav d-none d-md-block nav--atendimento fs-6">
+				<div class="d-flex px-1">
+					<div class="container-fluid d-flex justify-content-center">
+						<div class="navbar-nav px-2">
+							<a class="nav-link  text-white" aria-current="page" href="#projeto">Projeto</a>
+						</div>
+						<div class="navbar-nav px-2">
+							<a class="nav-link  text-white" aria-current="page" href="#fotos">Fotos</a>
+						</div>
+						<div class="navbar-nav px-2">
+							<a class="nav-link  text-white" aria-current="page" href="#plantas">Plantas</a>
+						</div>
+						<div class="navbar-nav px-2">
+							<a class="nav-link  text-white" aria-current="page" href="#ficha">Ficha Técnica</a>
+						</div>
+						<div class="navbar-nav px-2">
+							<a class="nav-link  text-white" aria-current="page" href="#perguntas">Dúvidas</a>
+						</div>
+						<div class="navbar-nav px-2">
+							<a class="nav-link  text-white" aria-current="page" href="#contato">Contato</a>
+						</div>
+				</div>		
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- CARROSSEL -->
+	<section class="container-xg carrossel">  
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./img/gran-vitrali/banner.jpg" class="d-block w-100" alt="Grand Vitrali carrosel 3">
+				</div>
+				<div class="carousel-item">
+					<img src="./img/grand-vitrali/grand-vitrali-2-min.jpg" class="d-block w-100" alt="Grand Vitrali carrosel 1">
+				</div>
+				<div class="carousel-item img-fluid">
+					<img src="./img/gran-vitrali/grand-vitrali (7).jpeg" class="d-block w-100" alt="Grand Vitrali carrosel 2">
+				</div>
+				<div class="carousel-item">
+					<img src="./img/gran-vitrali/grand-vitrali (8).jpeg" class="d-block w-100" alt="Grand Vitrali carrosel 3">
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					<span class="" aria-hidden="true"></span>
+					<span class="visually-hidden">Anterior</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					<span class="" aria-hidden="true"></span>
+					<span class="visually-hidden">Próximo</span>
+				</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="pattern-background">
+	<!-- Banner - Conheça nosso empreendimentos -->
+	<div id="projeto" class="container-fluid py-4">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 text-center osfont">
+				<h2 class="font-size-gg text-dark text-uppercase">Grand Vitrali Moema</h2>
+			</div>
+		</div>
+	</div>
+
+	<!-- GRAND VITRALI -->
+	<div class="container-lg  mt-3">
+		<div class="row">
+			<div class="col-lg-5">
+				<div class="osfont">
+					<p>Um investimento como poucos, a apenas 3 quadras da Estação Moema. O Grand Vitrali está no coração de Moema, uma região que só 	valoriza, um dos bairros mais desejados de São Paulo para morar ou investir.</p>
+					
+					<img src="img/gran-vitrali/grand-vitrali-teste.jpeg" class="img-responsive mb-3" />
+				</div>
+			</div>
+			<div class="info-text col-lg-7">
+				<!-- <ul class="list-unstyled text-center list-inline mt-5">
+					<li class="mb-3 px-3 list-inline-item"><img src="./img/icones/icone-studio-ouro-new.svg" width="21px" /> SIM</li>
+					<li class="mb-3 px-3 list-inline-item"><img src="./img/icones/icone-metragem-ouro.svg" width="21px" /> 25 A 29 M² | 41 A 61 M²</li>
+					<li class="mb-3 px-3 list-inline-item"><img src="./img/icones/icone-dorms-ouro.svg" width="21px" /> 1 E 2 DORMS. (41 A 61 M²)</li>
+				</ul>	 -->
+				<h2 id="fotos" class="text-start">Fotos</h2>
+				<div class="gallery"> 
+					<a href="./img/gran-vitrali/grand-vitrali (1).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (1).jpeg" class="mb-2" height="75px" alt="" title="Image 1">
+					</a>
+				
+					<a href="./img/gran-vitrali/grand-vitrali  (2).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (2).jpeg" class="mb-2" height="75px" alt="" title="Image 2">
+					</a>
+				
+					<a href="./img/gran-vitrali/grand-vitrali (3).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (3).jpeg" class="mb-2" height="75px" alt="" title="Image 3">
+					</a>
+				
+					<a href="./img/gran-vitrali/grand-vitrali (4).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (4).jpeg" class="mb-2" height="75px" alt="" title="Image 4">
+					</a>
+					<a href="./img/gran-vitrali/grand-vitrali (5).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (5).jpeg" class="mb-2" height="75px" alt="" title="Image 4">
+					</a>
+					<a href="./img/gran-vitrali/grand-vitrali (6).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (6).jpeg" class="mb-2" height="75px" alt="" title="Image 14">
+					</a>
+				
+					<a href="./img/gran-vitrali/grand-vitrali (7).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (7).jpeg" class="mb-2" height="75px" alt="" title="Image 6">
+					</a>
+				
+					<a href="./img/gran-vitrali/grand-vitrali (8).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (8).jpeg" class="mb-2" height="75px" alt="" title="Image 7">
+					</a>
+				
+					<a href="./img/gran-vitrali/grand-vitrali (9).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (9).jpeg" class="mb-2" height="75px" alt="" title="Image 8">
+					</a>
+					<a href="./img/gran-vitrali/grand-vitrali (10).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (10).jpeg" class="mb-2" height="75px" alt="" title="Image 9">
+					</a>
+				
+					<a href="./img/gran-vitrali/grand-vitrali (11).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (11).jpeg" class="mb-2" height="75px" alt="" title="Image 10">
+					</a>
+				
+					<a href="./img/gran-vitrali/grand-vitrali (12).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (12).jpeg" class="mb-2" height="75px" alt="" title="Image 11">
+					</a>
+				
+					<a href="./img/gran-vitrali/grand-vitrali (13).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (13).jpeg" class="mb-2" height="75px" alt="" title="Image 12">
+					</a>
+					<a href="./img/gran-vitrali/grand-vitrali (14).jpeg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/grand-vitrali (14).jpeg" class="mb-2" height="75px" alt="" title="Image 13">
+					</a>
+					<a href="./img/gran-vitrali/planta-studio-25-min.jpg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/planta-studio-25-min.jpg" class="mb-2" height="75px" alt="" title="Planta Studio 25m²">
+					</a>
+					<a href="./img/gran-vitrali/planta-ampliada-41-min.jpg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/planta-ampliada-41-min.jpg" class="mb-2" height="75px" alt="" title="Planta Ampliada 41m²">
+					</a>
+					<a href="./img/gran-vitrali/planta-tipo-61-min.jpg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/planta-tipo-61-min.jpg" class="mb-2" height="75px" width="100" alt="" title="Planta Tipo 61m²">
+					</a>
+					<a href="./img/gran-vitrali/planta-studio-28-min.jpg" class="big" rel="rel4">
+						<img src="./img/gran-vitrali/planta-studio-28-min.jpg" class="mb-2" height="75px" alt="" title="Planta Studio 28m²">
+					</a>
+				</div>
+				<div class="text-start osfont">
+					<h2 id="plantas" class="mt-4">Plantas</h2>
+					<small>Clique para visualizar a planta</small>
+				</div>  
+				<div class="gallery text-start mt-3 mb-5"> 
+					<a role="button" href="./img/grand-vitrali/planta-studio-25-min.jpg" class="btn btn-outline-secondary mb-1 rounded-0 big" rel="rel2">Planta Studio 25m²</a>
+					<a role="button" href="./img/grand-vitrali/planta-studio-28-min.jpg" class="btn btn-outline-secondary mb-1 rounded-0 big" rel="rel2">Planta Studio 28m²</a>
+					<a role="button" href="./img/grand-vitrali/planta-ampliada-41-min.jpg" class="btn btn-outline-secondary mb-1 rounded-0 big" rel="rel2">Planta Ampliada 41m²</a>
+					<a role="button" href="./img/grand-vitrali/planta-tipo-61-min.jpg" class="btn btn-outline-secondary mb-1 rounded-0 big" rel="rel2">Planta Tipo 61m²</a>			
+				</div>
+				<h2 id="ficha" class="text-start">Ficha Técnica</h2>
+				<ul class="list-group">
+					<li class="list-group-item">- 25 e 26 m2 - Studio - Sem vaga</li>
+					<li class="list-group-item">- 41 m2 - 1 Dorm - Sem vaga</li>
+					<li class="list-group-item">- 61 m2 - 2 Suítes - Sem vaga</li>
+					<li class="list-group-item">- Total 406 unidades</li>
+					<li class="list-group-item">- Previsão Entrega : Agosto / 2024</li>
+				  </ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-lg my-4 p-2 bg-marrom ">
+	<h5 class="text-center p-3 text-white border-none fs-3">
+		<b>Torre única em um terreno com 2.110 m² e com amplas áreas de lazer, convivência e bem-estar.<br></b>
+	</h5>
+	<div class="d-grid gap-2 col-md-3 mx-auto pb-2 justify-content-center">
+		<a href="#contato"><button class="btn bg-marrom-dark btn-outline-light" type="button">Clique para mais informações</button></a>
+	  </div>
+</div>
+</section>
+
+	<!-- Accordion - Perguntas -->
+	<section class="container-lg">
+		<h2 id="perguntas" class="text-center mt-5 mb-3">Perguntas e respostas</h2>
+
+		<div class="accordion accordion-flush" id="accordionFlushExample">
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="flush-headingOne">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+					Quais ambientes terão água quente? Já vem com misturador?
+				</button>
+			  </h2>
+			  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body fs-size-accordion">- Água quente nos banheiros para chuveiro e bancada. Na bancada será entregue o misturador.</div>
+			  </div>
+			</div>
+
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="flush-headingTwo">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+					Aquecimento da água é central ou de passagem?
+				</button>
+			  </h2>
+			  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body fs-size-accordion">- Para atendimento aos pontos de chuveiro e bancada dos banheiros, será entregue um sistema de aquecimento
+					central a gás, localizado na área técnica do empreendimento.
+				</div>
+			  </div>
+			</div>
+
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="flush-headingThree">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+					Quantos pontos de ar-condicionado terão nos apartamentos? Qual infra entregue de ar-condicionado nos
+					apartamentos?
+				</button>
+			  </h2>
+			  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body fs-size-accordion">- Nas unidades autônomas tipo serão instaladas e entregues infraestrutura hidráulica (dreno) e carga elétrica para a instalação de sistema de ar condicionado individual, tipo split, atendendo a 01 (um) ponto para unidades tipo Studio,
+					02 (dois) pontos para unidades de 01 dormitório e 03 (três) pontos para as unidades de 02 suítes (um ponto na
+					sala, que não atende o terraço e um ponto em cada suíte), ficando por conta dos adquirentes das unidades a
+					aquisição e instalação da rede frigorífera, condensadoras, evaporadoras e sancas. as condensadoras deverão ficar
+					nos terraços das unidades.</div>
+			  </div>
+			</div>
+
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingFour">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-headingFour" aria-expanded="false" aria-controls="flush-collapseFour">
+					O apartamento será entregue com churrasqueira?
+				  </button>
+				</h2>
+				<div id="flush-headingFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- Não temos previsão para churrasqueira.</div>
+				</div>
+			  </div>
+			  
+			  <div class="accordion-item">
+				<h2 class="accordion-header" id="flush-heading5">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+					Sistema de distribuição elétrica convencional ou barramento blindado (busway)?
+				  </button>
+				</h2>
+				<div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- Busway</div>
+				</div>
+			  </div>	
+
+			  <div class="accordion-item">
+				<h2 class="accordion-header" id="flush-heading6">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+					Será entregue gerador?
+				  </button>
+				</h2>
+				<div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- Será entregue um gerador, com ligação automática que, na falta de energia da rede pública, atenderá o
+					funcionamento de um elevador, das bombas de recalque, dos portões de acesso, do sistema de circuito fechado de
+					televisão, da guarita e da iluminação parcial das áreas comuns, conforme projeto de instalações elétricas.
+					</div>
+				</div>
+			  </div>
+
+			  <div class="accordion-item">
+				<h2 class="accordion-header" id="flush-heading7">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+					Água de chuva, será reaproveitada?
+				  </button>
+				</h2>
+				<div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- Sim, será fornecido um sistema para reaproveitamento de água das chuvas da laje de cobertura para a rega parcial dos jardins das áreas comuns, ficando o reservatório e as bombas localizados na área técnica.</div>
+				</div>
+			  </div>
+			  <div class="accordion-item">
+				<h2 class="accordion-header" id="flush-heading8">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+					Paredes internas em alvenaria convencional (bloco cerâmico)?
+				  </button>
+				</h2>
+				<div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- Sim.</div>
+				</div>
+			  </div>
+
+			  <div class="accordion-item">
+				<h2 class="accordion-header" id="flush-heading9">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+					O Apartamento será entregue com tomadas USB? Em quais ambientes?
+				  </button>
+				</h2>
+				<div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- Sim, 1 ponto por unidade, no dormitório/suíte principal.</div>
+				</div>
+			  </div>
+
+			  <div class="accordion-item">
+				<h2 class="accordion-header" id="flush-heading10">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+					O Apartamento será entregue com biometria nas portas?
+				  </button>
+				</h2>
+				<div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- Não, porém será oferecido o kit na personalização.</div>
+				</div>
+			  </div>
+
+			  <div class="accordion-item">
+				<h2 class="accordion-header" id="flush-heading11">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+					Qual a altura da torre?
+				  </button>
+				</h2>
+				<div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- 84 metros.</div>
+				</div>
+			  </div>
+
+			  <div class="accordion-item">
+				<h2 class="accordion-header" id="flush-heading12">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+					Qual tipo de acabamento da fachada?
+				  </button>
+				</h2>
+				<div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading12" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- Massa texturizada.</div>
+				</div>
+			  </div>
+
+			  <div class="accordion-item">
+				<h2 class="accordion-header" id="flush-heading13">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+					O prédio possui clausura de pedestres na entrada?
+				  </button>
+				</h2>
+				<div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- Sim, clausura social e de serviço.</div>
+				</div>
+			  </div>
+
+			  <div class="accordion-item">
+				<h2 class="accordion-header" id="flush-heading14">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse14">
+					Portaria será blindada?
+				  </button>
+				</h2>
+				<div id="flush-collapse14" class="accordion-collapse collapse" aria-labelledby="flush-heading14" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- Portaria com alvenaria reforçada e vidros multilaminados</div>
+				</div>
+			  </div>
+
+			  <div class="accordion-item">
+				<h2 class="accordion-header" id="flush-heading15">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collapse15">
+					Prédio virá com sistema de vigilância por câmeras? Quantas serão entregues? Tem infra para quantas? Onde ficará a sala de vigilância?
+				  </button>
+				</h2>
+				<div id="flush-collapse15" class="accordion-collapse collapse" aria-labelledby="flush-heading15" data-bs-parent="#accordionFlushExample">
+				  <div class="accordion-body fs-size-accordion">- CFTV – Sistema de circuito fechado de tv com 5 câmeras localizadas nas áreas comuns demarcados de acordo
+					com o projeto de instalações elétricas, e com controle na Portaria. O sistema contará com infraestrutura (tubulação
+					seca) para futura instalação de câmeras adicionais será por conta do condomínio.</div>
+				</div>
+			  </div>
+		  </div>
+		</section>
+
+	<!-- Contato -->
+	<section class="bg-light pattern-background" id="contato">
+		<div class="container-lg py-2 osfont">
+			<div class="row justify-content-center">
+				<div class="text-center">
+					<h2 class="fw-bold mb-5">Entre em contato</h2>
+				</div>
+			</div>  
+			<div class="row justify-content-center">
+				<div class="col-md-4 col-lg-5 mt-4">
+					<div class="contato text-start justify-content-center">
+						<h3>Localização</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7311.897215366756!2d-46.659871!3d-23.606176!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a1039394005%3A0x2a0f22d703894daa!2sAv.%20Jamaris%2C%20369%20-%20Planalto%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004078-000%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1633276113674!5m2!1spt-BR!2sus" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						<p class="font-size-g">ALAMEDA DOS JAMARIS</p>
+					</div>
+				</div>
+				
+				<div class="col-md-7 col-lg-5 col-ms-4">
+					<div class="contato mt-4">
+						<h4>Contato</h4>
+						<ul class="nav flex-column">
+							<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fas fa-phone-square-alt"></i> Contato / Whatsapp: 11 98226-2387</a></li>
+						</ul>
+					</div>
+					<form action="mail.php" method="POST">
+						<div class="form-contato">
+							<div class="mb-3">
+								<label for="inputNome" class="form-label"><h4>Nome</h4></label>
+								<input type="text" class="form-control" id="inputNome" name="inputNome" placeholder="Digite seu nome">
+							</div>
+							<div class="mb-3">
+								<label for="inputEmail" class="form-label"><h4>Email</h4></label>
+								<input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="contato@email.com">
+							</div>
+							<div class="mb-3">
+								<label for="inputTelefone" class="form-label"><h4>Telefone</h4></label>
+								<input type="text" class="form-control" id="inputTelefone" name="inputTelefone" placeholder="Digite seu contato">
+							</div>
+							<div class="mb-3">
+								<label for="textareaMensagem" class="form-label"><h4>Envie sua mensagem</h4></label>
+								<textarea class="form-control" id="textareaMensagem" name="textareaMensagem" rows="3" placeholder="Escreva sua mensagem"></textarea>
+							</div>
+						</div>
+						<input type="submit" name="send" class="btn bg-marrom-dark text-white d-block" value="Quero mais informações!"></input>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- WHATSAPP -->
+	<a href="https://api.whatsapp.com/send?phone=5511982262387&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20projetos%20do%20site!" class="float" target="_blank">
+		<i class="fab fa-whatsapp my-float"></i>
+	</a>
+
+	<!-- FOOTER -->
+	<section class="container-fluid footer">
+		<div class="container">
+			<div class="d-flex pt-3">
+				<p>© 2021 - Gerente Enzo - Lavvi </p>
+				<ul class="list-unstyled d-flex ms-auto">
+					<li class="ms-3">
+						<a class="link-dark text-white text-decoration-none" href="#">
+							<span class="mr-3">Chamar whatsapp</span>
+							<i class="fab fa-whatsapp"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+	<!-- Lightbox -->
+	<script src="./component/simplelightbox/simple-lightbox.min.js"></script>
+	<script src="./component/simplelightbox/simple-lightbox.legacy.min.js"></script>
+	<script src="./component/simplelightbox/simple-lightbox.jquery.min.js"></script>
+
+    <script type="text/javascript">
+      var gallery = $('.gallery a').simpleLightbox({});
+    </script>
+  </body>
+</html>

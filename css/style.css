@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Philosopher&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* bg-color */
+.bg-marrom{  background-color: #917366;}
+.bg-lavvi{ background:#182842;}
+.bg-gold{ background:#ccb209;}
+.bg-marrom-dark{ background-color: #3a241a; }
+
+/* text-color */
+.text-gold{ color:#F2D513;}
+
+/* Animação carrossel */
+.carousel-item {
+    transition: transform 2s ease, opacity .3s ease-out;
+}
+
+.container-xg {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+
+/* Texto dentro da imagem carrossel */
+.text-lg-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.form-box {
+    max-width: 500px;
+    margin: 0;
+    padding: 50px;
+}
+  
+input, textarea {
+    width: 100%;
+    
+}
+
+/* Conheça os empreendimentos */
+.conheca-projetos {
+    margin-top: -15px;
+    border: 10px solid red
+}
+
+/* footer */
+.footer {
+    background-color: #917366;
+    color: white;
+}
+
+.footer i {
+    color: white;
+}
+
+/* imagens responsivas */
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+.img-responsive img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  /* PATTERN */
+.bg--pattern {
+  background-color: #182842;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(45deg, #f5f5f5 0, #f8f8f8 1px, #ffffff 0, #ffffff 50%);
+}
+
+/* Gallery */
+.gallery a {
+    text-decoration: none;
+}
+
+/* Whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.my-float{
+	margin-top:16px;
+}
+
+
+/* Pattern */
+.pattern-background{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image: radial-gradient(#dfd700 0.5px, #ffffff 0.5px);
+    background-size: 10px 10px;
+}
+
+/* Font-size */
+.font-size-gg{font-size: 3.5rem;}
+.font-size-g{font-size: 1.8rem;}
+
+/* Accordion */
+.accordion-button:not(.collapsed) {background-color: white;}
+.fs-size-accordion{font-size: 0.9rem;}
+
